@@ -9,7 +9,7 @@
             <list>
                 <ref bean="codegraph" />
                 <ref bean="sograph" />
-				<ref bean="mailgraph" />
+                <ref bean="mailgraph" />
                 <ref bean="issuegraph" />
             </list>
         </property>

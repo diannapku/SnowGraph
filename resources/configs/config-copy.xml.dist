@@ -5,6 +5,6 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="graph" class="framework.KnowledgeGraphBuilder">
         <property name="graphPath" value="E:/SnowGraphData/lucene/graphdb-copy"/>
-		<property name="baseGraphPath" value="E:/SnowGraphData/lucene/graphdb-primitive"/>
+        <property name="baseGraphPath" value="E:/SnowGraphData/lucene/graphdb-primitive"/>
     </bean>
 </beans>
