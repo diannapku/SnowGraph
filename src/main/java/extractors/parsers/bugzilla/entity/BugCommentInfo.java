@@ -6,7 +6,9 @@ package extractors.parsers.bugzilla.entity;
 public class BugCommentInfo {
 
     private String commentid = "";
+    private String comment_count = "";
     private String who = "";
+    private String who_name = "";
     private String bug_when = "";
     private String thetext = "";
 
@@ -22,6 +24,13 @@ public class BugCommentInfo {
     }
     public void setWho(String who) {
         this.who = who;
+    }
+
+    public String getWhoName() {
+        return who_name;
+    }
+    public void setWhoName(String who_name) {
+        this.who_name = who_name;
     }
 
     public String getBugWhen() {
